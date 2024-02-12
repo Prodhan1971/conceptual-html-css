@@ -38,14 +38,15 @@
     border-color: yellow;
     border-style: groove; */
     /* background-color: blue; */
-    background: linear-gradient(45deg, #ffcc00, #ff3399);
+    background: linear-gradient(45deg, #ffcc00, #ff3399, red);
     /* background: linear-gradient(pink, blue); */
 
 
 }
 .article h2, #cow-type h2{
     text-align: center;
-    color: rgb(97, 23, 10);
+    /* color: rgb(97, 23, 10); */
+    color: aliceblue;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     border-width: 0px 0px 2px 0px;
