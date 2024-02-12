@@ -8,6 +8,8 @@
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 79%, 48% 100%, 49% 100%, 0 77%);
+
 }
 .hero h1{
     color: azure;
@@ -30,18 +32,23 @@
     text-align: justify;
     margin-top: 60px;
     margin-bottom: 60px;
-    background-color: rgba(21, 194, 194, 0.683);
+    /* background-color: rgba(21, 194, 194, 0.683); */
     padding: 60px;
-    border-width: 15px;
+    /* border-width: 15px;
     border-color: yellow;
-    border-style: groove;
+    border-style: groove; */
+    /* background-color: blue; */
+    background: linear-gradient(45deg, #ffcc00, #ff3399);
+    /* background: linear-gradient(pink, blue); */
+
+
 }
-.article h2{
+.article h2, #cow-type h2{
     text-align: center;
     color: rgb(97, 23, 10);
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
-    border-width: 4px;
+    border-width: 0px 0px 2px 0px;
     border-color: yellow;
     border-style: solid;
 }
@@ -54,4 +61,17 @@
     /* background-color: yellow;
     display: inline-block;
      width: 600px; */
+}
+.cow-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+/* .cow-flex div{
+    min-width: 300px;
+} */
+.cow-flex img{
+    width: 300px;;
 }
